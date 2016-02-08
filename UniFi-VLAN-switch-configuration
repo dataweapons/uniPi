@@ -1,0 +1,7 @@
+*** https://help.ubnt.com/hc/en-us/articles/205146150-UniFi-VLAN-switch-configuration ***
+
+UniFi - VLAN switch configuration
+
+Describes how UNIFI AP's (like most) uses port tagging and VLAN trunking to
+segregate  'guest' networks from protected ones, and how it depends on switching
+infrastructure to also support it.
