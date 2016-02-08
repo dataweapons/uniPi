@@ -1,0 +1,11 @@
+https://tools.ietf.org/html/rfc5417 
+
+*** Control And Provisioning of Wireless Access Points (CAPWAP) ***
+
+In most of the networks, the DHCP exchange that delivers the options
+   prior to network access authentication is neither integrity protected
+   nor origin authenticated.  Therefore, in security sensitive
+   environments, the options defined in this document SHOULD NOT be the
+   only methods used to determine to which AC a WTP should connect.  The
+   CAPWAP protocol [RFC5415] defines other AC discovery procedures a WTP
+   may utilize.
