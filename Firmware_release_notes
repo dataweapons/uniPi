@@ -1,0 +1,8 @@
+Changes from 4.7.5 to 4.7.6:
+[CTLR] Upgraded Tomcat to 7.0.64 (current).
+[CTLR] Fixed CVE-2011-1473 (requires Java 8) and default to 2048 bits strength ephemeral DH keys (requires jre7u85 or later) (reported HERE).
+[UAP] Improved 2G stability on UAP-AC-Lite/UAP-AC-LR/UAP-AC-Pro.
+[USW] Fixed DHCP guarding on Link Aggregation.
+[USW] Fixed a bug that switch cannot boot after upgrading to 3.3.10 (reported HERE).
+[USW] Fixed a bug that 802.3af/at auto sensing PoE is not working on port 25-48 on US48P-500/US48P-750 when the system is cold rebooted (reported HERE).
+See above Java 8 Requirement.
