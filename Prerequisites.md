@@ -108,9 +108,15 @@
 =============
 
 [a] RFC 2716 - PPP EAP TLS Authentication Protocol: https://www.ietf.org/rfc/rfc2716.txt
+
 [b] RFC 2131 - Dynamic Host Control Protocol: https://www.ietf.org/rfc/rfc2131.txt
+
 [c] RFC 2132 - DHCP Options and BOOTP Vendor Extensions: https://tools.ietf.org/html/rfc2132
+
 [d] Microsoft DNS specific: https://msdn.microsoft.com/en-us/library/windows/desktop/aa394217(v=vs.85).aspx
+
 [e] RFC 5415 - Control And Provisioning of Wireless Access Points (CAPWAP) Protocol Spec.: https://tools.ietf.org/rfc/rfc5415.txt
+
 [f] http://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/70333-lap-registration.html
-[g] such as Cisco Clean Access, Microsoft Network Access Protection, and others.
+
+[g] such as Cisco Clean Access, Microsoft Network Access Protection, and others
