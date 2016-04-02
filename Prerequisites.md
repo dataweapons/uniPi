@@ -9,7 +9,7 @@
     - CAT5e or better cabling.
     - managed switches.
     - routable subnets for trusted and untrusted networks.
-    - bridged wireless infrastructure over trucked and tagged physical switch ports.
+    - bridged wireless infrastructure over physical, managed switch ports.
 
 
 ==================
@@ -33,9 +33,16 @@
       * Microsoft Remote Access Services.
       * LDAP/s.
 
-    - support for mobile devices; rules specific to vendors to allow harmonious coexistence of varying classes of devices.
-    - Multi-channel wireless support to account for differences in client devices.
- 
+    - support for mobile devices; rules specific to vendors to allow harmonious coexistence of varying classes of devices, but
+    - battery starved, old, or otherwise shitty phones can't be allowed to connect; blacklisted once the weak signal is detected.
+
+    - mostly everywhere, deploy a number of AP's, and if needed, bridges, extenders meshes, wds, etc.
+    - everywhere that above is done, take care to avoid saturation, as in, too many AP's, or similar miscalculations.
+    - the AP's in use should be AP's, not UTM, NGFW, routers, etc.  The functions of the UTM should then be done by the UTM, et al.
+
+    - everywhere there's >1 wireless AP's whose signals meet in physical space, there's disharmony.  Best to keep them separated.
+    - Strategic deployment of radios (AP's) tuned at 20Hz spread over channels 1, 6, and 11 is the path to a virtuous network.
+    - such situations call for proper engineering.  The kind that involves packets, routes, ciphers, algebra, calculus, and planning.
  
 ===============================================
 [2] Implementation and integration requirements
@@ -120,3 +127,4 @@
 [f] http://www.cisco.com/c/en/us/support/docs/wireless-mobility/wireless-lan-wlan/70333-lap-registration.html
 
 [g] such as Cisco Clean Access, Microsoft Network Access Protection, and others
+
